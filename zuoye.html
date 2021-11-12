@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<h3>第一题</h3>
+		<input type="text" id='test' value="">
+		<button class="btn1">添加</button><br><br>
+		<button class="btn2">清空列表</button>
+		<p></p>
+		<script src="js/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$(".btn1").click(function() {
+					$("p").append($("#test").val());
+				});
+			});
+			$(document).ready(function(){
+			  $(".btn2").click(function(){
+			    $("p").empty();
+			  });
+			});
+		</script>
+		<hr>
+		<h3>第二题</h3>
+		1. C<br>
+		2. B<br>
+		3. C<br>
+		4. B<br>
+		5. D<br>
+		6. B<br>
+		7. C<br>
+		8. D<br>
+		9. A<br>
+		10. A<br>
+		11. C<br>
+		12. A<br>
+		13. B<br>
+		14. D<br>
+		15. B<br>
+		16. C<br>
+		17. A<br>
+		18. B<br>
+		19. A<br>
+		20. D
+		<hr>
+		<h3>第三题</h3>
+		<!-- 		<pre>
+for($i=1;$i<=100;$i++){
+echo $i.' ';
+}
+</pre> -->
+		<hr>
+		<h3>第四题</h3>
+		<!-- 		<pre>
+for($i=1;$i<=100;$i++){
+if($i%2===0){
+echo $i.' ';
+}
+}
+		</pre> -->
+		<hr>
+		<h3>第五题</h3>
+		<!-- 		<pre>
+		for($i=1;$i<=100;$i++){
+			if($i%3===0 && $i%5===0){
+				echo 'foobar'.' ';
+			}else if($i%5===0){
+				echo 'bar'.' ';
+			}else if( $i%3===0){
+				echo 'foo'.' ';
+			} else{
+				echo $i.' ';
+			}
+			}
+		</pre> -->
+	</body>
+</html>
